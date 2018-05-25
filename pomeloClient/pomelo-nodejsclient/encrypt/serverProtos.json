@@ -1,0 +1,16 @@
+{
+  "onReceivedTrumpet": {
+    "required int32 priority": 1,
+    "required int32 type": 2,
+    "required string content": 3
+  },
+  "onMainStateChanged": {
+    "required int32 friendUid": 1,
+    "required int32 mainState": 2
+  },
+  "onCancelMatch": {
+  },
+  "onMatched": {
+    "required string fightAreaName": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "USE_ENCRYPT_PROTOCOL": true,
+  "USE_ENCRYPT_REQUEST": true,
+  "USE_ENCRYPT_RESPONSE": true,
+  "USE_ENCRYPT_PUSH": true,
+  "GUESS_KEY": "kingduel3016",
+  "ENCRYPT_INFO": {
+    "gate.gateHandler.getConnector": [
+      "testEncrypt"
+    ]
+  },
+  "PUSH_ENCRYPT_INFO": {
+    "onReceivedTrumpet": [
+      "content"
+    ],
+    "onAllPlayersReady": [
+      "playerInfoList.nickname"
+    ],
+    "onGameOver": [
+      "fightAreaName"
+    ],
+    "onMatched": [
+      "fightAreaName"
+    ],
+    "onChat": [
+      "content"
+    ],
+    "onAddedFriend": [
+      "friendNickname",
+      "friendPortrait"
+    ],
+    "onReceiveAddFriendInvitation": [
+      "inviterNickname"
+    ],
+    "onReceiveReplyAddFriendInvitation": [
+      "inviteeNickname"
+    ],
+    "onReceiveDeleteUserFriend": [
+      "nickname"
+    ],
+    "onSendPurchaseGoods": [
+      "purchaseGoodsInfoString"
+    ],
+    "onReceiveUnionMsg": [
+      "content",
+      "options",
+      "detail"
+    ]
+  }
+}

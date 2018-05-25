@@ -1,0 +1,19 @@
+{
+  "gate.gateHandler.getConnector": {
+    "required int32 userId": 1,
+    "required string testEncrypt": 2
+  },
+  "connector.userHandler.login": {
+    "required int32 userId": 1
+  },
+  "connector.userHandler.enterMatchQueue": {
+  },
+  "lobby.lobbyHandler.useTrumpet": {
+    "required string nickname": 1,
+    "required string content": 2
+  },
+  "lobby.lobbyHandler.joinTrumpetChannel": {
+  },
+  "match.matchHandler.cancelMatch": {
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "gate.gateHandler.getConnector": {
+    "required int32 code": 1,
+    "required string errorMsg": 2,
+    "required string host": 3,
+    "required int32 port": 4
+  },
+  "connector.userHandler.login": {
+    "required int32 code": 1,
+    "required string errorMsg": 2,
+    "required int32 isGaming": 3,
+    "required string serverTime": 4
+  },
+  "connector.userHandler.enterMatchQueue": {
+    "required int32 code": 1,
+    "required string errorMsg": 2,
+    "required int32 emtime": 3
+  },
+  "lobby.lobbyHandler.joinTrumpetChannel": {
+    "message PoolLimit": {
+      "required int32 priority": 1,
+      "required int32 limit": 2
+    },
+    "required int32 code": 1,
+    "required string errorMsg": 2,
+    "repeated PoolLimit poolLimitList": 3,
+    "required int32 trumpetCount": 4,
+    "required int32 useTrumpetLimitLevel": 5
+  },
+  "lobby.lobbyHandler.useTrumpet": {
+    "required int32 code": 1,
+    "required string errorMsg": 2
+  },
+  "match.matchHandler.cancelMatch": {
+    "required int32 code": 1,
+    "required string errorMsg": 2
+  }
+}

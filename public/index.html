@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>json-formater</title>
+		<link href="css/jquery.json-viewer.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/jquery.json-viewer.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<!--<form action="/login" method="post" target="myframe" class="login">-->
+				<!--<div class="block">-->
+					<!--<label for="username" class="login-text">用户名</label>-->
+					<!--<input type="text" id="username" name="username" />-->
+				<!--</div>-->
+				<!--<div class="block">-->
+					<!--<label for="password" class="login-text">密码</label>-->
+					<!--<input type="text" id="password" name="password" />-->
+				<!--</div>-->
+				<!--<button type="submit">登录</button>-->
+				<!--<button type="reset">重置</button>-->
+			<!--</form>-->
+			<!--<iframe src="" frameborder="0" name="myframe" style="width: 0; height: 0"></iframe>-->
+			<!--<div class="login">-->
+				<!--<div class="block">-->
+					<!--<label for="username">用户名</label>-->
+					<!--<input type="text" id="username" />-->
+				<!--</div>-->
+				<!--<div class="block">-->
+					<!--<label for="password">密码</label>-->
+					<!--<input type="text" id="password" />-->
+				<!--</div>-->
+				<!--<button type="button">登录</button>-->
+			<!--</div>-->
+			
+			<div class="opt" style="display: block">
+				<div class="item">FILE:
+					<input type="file" class="jsonFile" id="jsonFile" accept=".json" />
+					<button type="button" class="format" id="formatFile">格式化</button>
+				</div>
+				<div class="item">URL:
+					<input type="text" class="jsonUrl" id="jsonUrl" placeholder="type json url" />
+					<button type="button" class="format" id="formatUrl">格式化</button>
+				</div>
+				<div class="item">COPY:
+					<input type="text" class="typeFileName" id="typeFileName" placeholder="type json fileName" />
+					<textarea class="jsonText" id="jsonText" placeholder="json text"></textarea>
+					<button type="button" class="format" id="formatText">格式化</button>
+				</div>
+			</div>
+			<div class="result" id="result" style="display: block">
+				<h6 class="title">
+					<span class="fileName" id="fileName"></span>
+					<button type="button" class="submit" id="submit">更新</button>
+					<button type="button" class="reset" id="reset">重置</button>
+				</h6>
+				<pre class="show" id="show"></pre>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

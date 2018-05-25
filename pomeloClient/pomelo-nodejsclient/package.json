@@ -1,0 +1,26 @@
+{
+  "name": "pomelo-nodejsclient-websocket",
+  "version": "0.0.2",
+  "description": "",
+  "main": "./lib/pomelo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pomelo-protobuf": "^0.4.0",
+    "pomelo-protocol": "^0.1.6",
+    "underscore": "^1.8.3",
+    "log4js": "*",
+    "ws": "^0.8.0",
+    "Q": "0.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "pomelo-nodejsclient-websocket@0.0.2",
+  "dist": {
+    "shasum": "06dc094f45c156110ba2ae17927ed2eb5d22e8b0"
+  },
+  "_from": "pomelo-nodejsclient-websocket@",
+  "_resolved": "https://registry.npmjs.org/pomelo-nodejsclient-websocket/-/pomelo-nodejsclient-websocket-0.0.2.tgz"
+}
